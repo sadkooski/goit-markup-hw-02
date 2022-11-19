@@ -6,35 +6,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <link rel="stylesheet" href="css/style.css" />
-    <style></style>
   </head>
 
-  <body>
-    <header>
-      <nav>
-        <a class="web-studio-header" href="#"
-          >Web<span class="studio-logo-header">Studio</span></a
-        >
-        <div class="menu-nav">
-          <ul>
-            <li><a class="nav-agency" href="studio.html">Agencja</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="#kontakt">Kontakt</a></li>
-          </ul>
-        </div>
-      </nav>
+  <body class="body-porfolio">
+    <header class="header-portfolio">
+      <div class="header-position">
+        <nav>
+          <div>
+            <a class="web-studio-header" href="#"
+              >Web<span class="studio-logo-header">Studio</span></a
+            >
+          </div>
+          <div class="menu-nav">
+            <ul class="portfolio-list">
+              <li>
+                <div class="nav-agency"><a href="studio.html">Agencja</a></div>
+              </li>
+              <li>
+                <div class="nav-portfolio">
+                  <a href="portfolio.html">Portfolio</a>
+                </div>
+              </li>
+              <li>
+                <div class="nav-contact"><a href="#kontakt">Kontakt</a></div>
+              </li>
+            </ul>
+          </div>
+        </nav>
 
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="+48111111111">+48 111 111 111</a></li>
-      </ul>
+        <ul class="portfolio-list">
+          <li>
+            <div class="nav-mail">
+              <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </div>
+          </li>
+          <li>
+            <div class="portfolio-tel">
+              <a href="+48111111111">+48 111 111 111</a>
+            </div>
+          </li>
+        </ul>
+      </div>
     </header>
 
     <main>
       <section>
         <div>
           <div class="filters">
-            <ul>
+            <ul class="portfolio-list">
               <li>
                 <button class="button-one" type="button">Wszystkie</button>
               </li>
@@ -49,7 +68,7 @@
             </ul>
           </div>
 
-          <ul>
+          <ul class="portfolio-list">
             <li>
               <div class="project-one">
                 <img
@@ -58,8 +77,17 @@
                   alt="Technocrack"
                   width="370px"
                   height="294px"
-                /><span class="projects-titles">Technocrack</span>
-                <span class="projects-descriptions">Strona internetowa</span>
+                />
+                <div class="project-text">
+                  <div>
+                    <span class="projects-titles">Technocrack</span>
+                  </div>
+                  <div>
+                    <span class="projects-descriptions"
+                      >Strona internetowa</span
+                    >
+                  </div>
+                </div>
               </div>
             </li>
             <li>
@@ -69,8 +97,15 @@
                   alt="New Orlean vs Golden Star"
                   width="370px"
                   height="294px"
-                /><span>Grafika New Orlean vs Golden Star</span>
-                <span>Dizajn</span>
+                />
+                <div class="project-text">
+                  <div>
+                    <span class="projects-titles"
+                      >Grafika New Orlean vs Golden Star
+                    </span>
+                  </div>
+                  <div><span class="projects-descriptions">Dizajn</span></div>
+                </div>
               </div>
             </li>
             <li>
@@ -80,8 +115,15 @@
                   alt="Restaurant Seafood"
                   width="370px"
                   height="294px"
-                /><span>Restauracja Seafood</span>
-                <span>Aplikacja</span>
+                />
+                <div class="project-text">
+                  <div>
+                    <span class="projects-titles">Restauracja Seafood</span>
+                  </div>
+                  <div>
+                    <span class="projects-descriptions">Aplikacja</span>
+                  </div>
+                </div>
               </div>
             </li>
             <li>
@@ -92,10 +134,12 @@
                   width="370px"
                   height="294px"
                 />
-                <ul>
-                  <li><span>Projekt Prime</span></li>
-                  <li><span>Marketing</span></li>
-                </ul>
+                <div class="project-text">
+                  <div><span class="projects-titles">Projekt Prime</span></div>
+                  <div>
+                    <span class="projects-descriptions">Marketing</span>
+                  </div>
+                </div>
               </div>
             </li>
             <li>
@@ -105,8 +149,13 @@
                   alt="Boxes Project"
                   width="370px"
                   height="294px"
-                /><span>Projekt Boxes</span>
-                <span>Aplikacja</span>
+                />
+                <div class="project-text">
+                  <div><span class="projects-titles">Projekt Boxes</span></div>
+                  <div>
+                    <span class="projects-descriptions">Aplikacja</span>
+                  </div>
+                </div>
               </div>
             </li>
             <li>
@@ -116,8 +165,19 @@
                   alt="Inspiration has no Borders"
                   width="370px"
                   height="294px"
-                /><span>Inspiration has no Borders</span>
-                <span>Strona internetowa</span>
+                />
+                <div class="project-text">
+                  <div>
+                    <span class="projects-titles"
+                      >Inspiration has no Borders</span
+                    >
+                  </div>
+                  <div>
+                    <span class="projects-descriptions"
+                      >Strona internetowa</span
+                    >
+                  </div>
+                </div>
               </div>
             </li>
             <li>
@@ -127,8 +187,13 @@
                   alt="Limited Edition Magazine"
                   width="370px"
                   height="294px"
-                /><span>Magazyn Limited Edition</span>
-                <span>Dizajn</span>
+                />
+                <div class="project-text">
+                  <div>
+                    <span class="projects-titles">Magazyn Limited Edition</span>
+                  </div>
+                  <div><span class="projects-descriptions">Dizajn</span></div>
+                </div>
               </div>
             </li>
             <li>
@@ -138,8 +203,13 @@
                   alt="LAB Project"
                   width="370px"
                   height="294px"
-                /><span>Projekt LAB</span>
-                <span>Marketing</span>
+                />
+                <div class="project-text">
+                  <div><span class="projects-titles">Projekt LAB</span></div>
+                  <div>
+                    <span class="projects-descriptions">Marketing</span>
+                  </div>
+                </div>
               </div>
             </li>
             <li>
@@ -149,8 +219,15 @@
                   alt="Growing Business"
                   width="370px"
                   height="294px"
-                /><span>Growing Business</span>
-                <span>Aplikacja</span>
+                />
+                <div class="project-text">
+                  <div>
+                    <span class="projects-titles">Growing Business</span>
+                  </div>
+                  <div>
+                    <span class="projects-descriptions">Aplikacja</span>
+                  </div>
+                </div>
               </div>
             </li>
           </ul>
@@ -158,13 +235,13 @@
       </section>
     </main>
 
-    <footer>
+    <footer class="footer-portfolio">
       <a class="web-studio-footer" href="#" id="kontakt"
         >Web<span class="studio-logo-footer">Studio</span></a
       >
       <address>
         <div class="contacts-footer">
-          <ul>
+          <ul class="portfolio-list">
             <li>
               <span class="footer-adress"
                 >m. Warszawa, Aleje Jerozolimskie 21</span

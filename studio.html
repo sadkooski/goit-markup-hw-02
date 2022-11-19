@@ -5,69 +5,109 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Studio</title>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
 
-  <body>
-    <header>
-      <nav>
-        <a href="#">WebStudio</a>
-        <ul>
-          <li><a href="studio.html">Agencja</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="#kontakt">Kontakt</a></li>
-        </ul>
-      </nav>
+  <body class="body-studio">
+    <header class="header-studio">
+      <div class="header-position">
+        <nav>
+          <div>
+            <a class="web-studio-header" href="#"
+              >Web<span class="studio-logo-header">Studio</span></a
+            >
+          </div>
+          <div class="menu-nav">
+            <ul class="portfolio-list">
+              <li>
+                <div class="nav-agency"><a href="studio.html">Agencja</a></div>
+              </li>
+              <li>
+                <div class="nav-portfolio">
+                  <a href="portfolio.html">Portfolio</a>
+                </div>
+              </li>
+              <li>
+                <div class="nav-contact"><a href="#kontakt">Kontakt</a></div>
+              </li>
+            </ul>
+          </div>
+        </nav>
 
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="+48111111111">+48 111 111 111</a></li>
-      </ul>
+        <ul class="portfolio-list">
+          <li>
+            <div class="nav-mail">
+              <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </div>
+          </li>
+          <li>
+            <div class="portfolio-tel">
+              <a href="+48111111111">+48 111 111 111</a>
+            </div>
+          </li>
+        </ul>
+      </div>
     </header>
 
     <main>
-      <section>
+      <section class="section-one-studio">
         <h1 id="agencja">EFEKTWYNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-        <button type="button">Zamów usługę</button>
+        <button class="button-studio" type="button">
+          <span>Zamów usługę</span>
+        </button>
       </section>
 
-      <section>
-        <ul>
+      <section class="section-two-studio">
+        <ul class="studio-lists">
           <li>
-            <h4>LOREM IPSUM</h4>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-              arcu sem. Sed non sodales dui. Interdum et malesuada
-            </p>
+            <div class="studio-text-one">
+              <h4 class="studio-text-title">LOREM IPSUM</h4>
+              <p class="studio-text-paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcu sem. Sed non sodales dui. Interdum et malesuada
+              </p>
+            </div>
           </li>
           <li>
-            <h4>LOREM IPSUM</h4>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-              arcu sem. Sed non sodales dui. Interdum et malesuada
-            </p>
+            <div class="studio-text-two">
+              <h4 class="studio-text-title">LOREM IPSUM</h4>
+              <p class="studio-text-paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcu sem. Sed non sodales dui. Interdum et malesuada
+              </p>
+            </div>
           </li>
           <li>
-            <h4>LOREM IPSUM</h4>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-              arcu sem. Sed non sodales dui. Interdum et malesuada
-            </p>
+            <div class="studio-text-three">
+              <h4 class="studio-text-title">LOREM IPSUM</h4>
+              <p class="studio-text-paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcu sem. Sed non sodales dui. Interdum et malesuada
+              </p>
+            </div>
           </li>
           <li>
-            <h4>LOREM IPSUM</h4>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-              arcu sem. Sed non sodales dui. Interdum et malesuada
-            </p>
+            <div class="studio-text-four">
+              <h4 class="studio-text-title">LOREM IPSUM</h4>
+              <p class="studio-text-paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcu sem. Sed non sodales dui. Interdum et malesuada
+              </p>
+            </div>
           </li>
         </ul>
       </section>
 
-      <section>
-        <h2 id="portfolio">Czym się zajmujemy</h2>
-        <ul>
+      <section class="section-thrree-studio">
+        <div class="what-weare-doing">
+          <h2 class="what-weare-doing-text" id="portfolio">
+            Czym się zajmujemy
+          </h2>
+        </div>
+        <ul class="studio-lists">
           <li>
             <img
+              class="img-one"
               src="images/semantic-coding.jpg"
               alt="Kodowanie"
               width="370"
@@ -76,6 +116,7 @@
           </li>
           <li>
             <img
+              class="img-two"
               src="images/application.jpg"
               alt="Aplikacje na smartfona"
               width="370"
@@ -84,6 +125,7 @@
           </li>
           <li>
             <img
+              class="img-three"
               src="images/design.jpg"
               alt="Projektowanie grafiki"
               width="370"
@@ -93,69 +135,79 @@
         </ul>
       </section>
 
-      <section>
-        <h2>Nasz zespół</h2>
-        <ul>
-          <li>
-            <div>
-              <img
-                src="images/product-designer.jpg"
-                alt="John Doe"
-                width="270"
-                height="260"
-              />
+      <section class="section-four-studio">
+        <h2 class="our-team-text">Nasz zespół</h2>
+        <div class="our-team">
+          <ul class="studio-lists">
+            <li>
+              <div class="product-designer">
+                <img
+                  src="images/product-designer.jpg"
+                  alt="John Doe"
+                  width="270"
+                  height="260"
+                />
 
-              <span>John Doe</span> <span>Product Designer</span>
-            </div>
-          </li>
-          <li>
-            <div>
-              <img
-                src="images/frontend-developer.jpg"
-                alt="John Doe"
-                width="270"
-                height="260"
-              />
+                <span>John Doe</span> <span>Product Designer</span>
+              </div>
+            </li>
+            <li>
+              <div class="frontend-developer">
+                <img
+                  src="images/frontend-developer.jpg"
+                  alt="John Doe"
+                  width="270"
+                  height="260"
+                />
 
-              <span>John Doe</span> <span>Frontend Developer</span>
-            </div>
-          </li>
-          <li>
-            <div>
-              <img
-                src="images/marketing.jpg"
-                alt="John Doe"
-                width="270"
-                height="260"
-              />
+                <span>John Doe</span> <span>Frontend Developer</span>
+              </div>
+            </li>
+            <li>
+              <div class="marketing">
+                <img
+                  src="images/marketing.jpg"
+                  alt="John Doe"
+                  width="270"
+                  height="260"
+                />
 
-              <span>John Doe</span> <span>Marketing</span>
-            </div>
-          </li>
-          <li>
-            <div>
-              <img
-                src="images/ui-designer.jpg"
-                alt="John Doe"
-                width="270"
-                height="260"
-              />
+                <span>John Doe</span> <span>Marketing</span>
+              </div>
+            </li>
+            <li>
+              <div class="ui-designer">
+                <img
+                  src="images/ui-designer.jpg"
+                  alt="John Doe"
+                  width="270"
+                  height="260"
+                />
 
-              <span>John Doe</span> <span>UI Designer</span>
-            </div>
-          </li>
-        </ul>
+                <span>John Doe</span> <span>UI Designer</span>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 
-    <footer>
-      <a href="#" id="kontakt">WebStudio</a>
+    <footer class="footer-studio">
+      <a class="web-studio-footer" href="#" id="kontakt"
+        >Web<span class="studio-logo-footer">Studio</span></a
+      >
       <address>
-        <ul>
-          <li>m. Warszawa, Aleje Jerozolimskie 21</li>
-          <li>info@example.com</li>
-          <li>+48 111 111 111</li>
-        </ul>
+        <div class="contacts-footer">
+          <ul class="portfolio-list">
+            <li>
+              <span class="footer-adress"
+                >m. Warszawa, Aleje Jerozolimskie 21</span
+              >
+            </li>
+            <li><span class="footer-mail">info@example.com</span></li>
+            <li><span class="footer-tel">+48 111 111 111</span></li>
+          </ul>
+        </div>
       </address>
     </footer>
   </body>
