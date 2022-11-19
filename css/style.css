@@ -1,0 +1,381 @@
+body {
+  position: relative;
+  width: 1600px;
+  height: 1880px;
+  background: seashell;
+}
+
+header {
+  position: absolute;
+  width: 1600px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+  border-bottom: 1px solid #ececec;
+}
+
+footer {
+  position: absolute;
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 1628px;
+
+  background: #2f303a;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.portfolio-images {
+}
+
+.button-one {
+  position: absolute;
+  width: 121px;
+  height: 38px;
+  left: 510px;
+  top: 174px;
+
+  background: #2196f3;
+  /* shadow-middle */
+
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  border: none;
+}
+
+.button-two {
+  position: absolute;
+  width: 93px;
+  height: 38px;
+  left: 639px;
+  top: 174px;
+
+  background: #f5f4fa;
+  border-radius: 4px;
+  border: none;
+}
+
+.button-three {
+  position: absolute;
+  width: 114px;
+  height: 38px;
+  left: 740px;
+  top: 174px;
+
+  background: #f5f4fa;
+  border-radius: 4px;
+  border: none;
+}
+
+.button-four {
+  position: absolute;
+  width: 91px;
+  height: 38px;
+  left: 862px;
+  top: 174px;
+
+  background: #f5f4fa;
+  border-radius: 4px;
+  border: none;
+}
+
+.button-five {
+  position: absolute;
+  width: 121px;
+  height: 38px;
+  left: 961px;
+  top: 174px;
+
+  background: #f5f4fa;
+  border-radius: 4px;
+  border: none;
+}
+
+.filters {
+  width: 572px;
+  height: 54px;
+  margin-top: 174px;
+  margin-left: 510px;
+  margin-right: 518px;
+}
+
+.project-one {
+  box-sizing: border-box;
+  position: absolute;
+
+  width: 370px;
+  height: 404px;
+  left: 215px;
+  top: 262px;
+
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+
+.project-two {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 615px;
+  top: 262px;
+
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+
+.project-three {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 1015px;
+  top: 262px;
+
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+
+.project-four {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 215px;
+  top: 696px;
+
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+
+.project-five {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 615px;
+  top: 696px;
+
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+
+.project-six {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 1015px;
+  top: 696px;
+
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+
+.project-seven {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 215px;
+  top: 1130px;
+
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+
+.project-eight {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 615px;
+  top: 1130px;
+
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+
+.project-nine {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 1015px;
+  top: 1130px;
+
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+
+.projects-titles {
+  position: relative;
+  width: 322px;
+  height: 36px;
+  margin-left: 24px;
+  margin-top: 314px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+
+.projects-descriptions {
+  position: static;
+  width: 322px;
+  height: 36px;
+  margin-left: 24px;
+  margin-top: 354px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 188% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+.web-studio-footer {
+  position: inherit;
+  width: 145px;
+  height: 31px;
+  margin-top: 60px;
+  margin-left: 215px;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: #2196f3;
+}
+
+.web-studio-header {
+  position: inherit;
+  width: 145px;
+  height: 31px;
+  margin-left: 215px;
+  margin-top: 24px;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: #2196f3;
+}
+
+.contacts-footer {
+  position: inherit;
+  margin-top: 111px;
+  margin-left: 215px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+}
+
+.footer-mail {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+  text-decoration-line: underline;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-tel {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-adress {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+
+.studio-logo-footer {
+  color: #ffffff;
+}
+
+.studio-logo-header {
+  color: #000000;
+}
+
+.menu-nav {
+  position: absolute;
+  width: 261px;
+  height: 16px;
+  left: 453px;
+  top: 32px;
+}
+
+.nav-agency {
+  margin-top: 32px;
+  margin-left: 453px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
