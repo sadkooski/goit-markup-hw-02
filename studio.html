@@ -12,45 +12,54 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <style>
+      body {
+        background: #ffffff;
+        font-family: "Roboto";
+        color: #212121;
+      }
+    </style>
   </head>
 
   <body class="body-studio">
     <header class="header-studio">
-      <div class="header-inline">
+      <div>
+        <div class="header-inline">
+          <a class="web-studio-header" href="#"
+            >Web<span class="studio-logo-header">Studio</span></a
+          >
+        </div>
         <nav>
-          <div>
-            <a class="web-studio-header" href="#"
-              >Web<span class="studio-logo-header">Studio</span></a
-            >
-          </div>
           <div class="menu-nav">
-            <ul class="portfolio-list">
+            <ul class="portfolio-nav">
               <li>
-                <div class="nav-agency"><a href="studio.html">Agencja</a></div>
-              </li>
-              <li>
-                <div class="nav-portfolio">
-                  <a class="blue-link" href="portfolio.html">Portfolio</a>
+                <div class="nav-agency-position">
+                  <a href="studio.html">Agencja</a>
                 </div>
               </li>
               <li>
-                <div class="nav-contact"><a href="#kontakt">Kontakt</a></div>
+                <div class="nav-portfolio-position">
+                  <a href="portfolio.html">Portfolio</a>
+                </div>
+              </li>
+              <li>
+                <div class="nav-contact-position">
+                  <a href="#kontakt">Kontakt</a>
+                </div>
               </li>
             </ul>
           </div>
         </nav>
 
-        <ul class="portfolio-list">
+        <ul class="portfolio-contacts">
           <li>
-            <div class="nav-mail">
-              <a class="contacts-color" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
+            <div class="nav-mail-position">
+              <a href="mailto:info@devstudio.com">info@devstudio.com</a>
             </div>
           </li>
           <li>
-            <div class="nav-tel">
-              <a class="contacts-color" href="+48111111111">+48 111 111 111</a>
+            <div class="nav-tel-position">
+              <a href="+48111111111">+48 111 111 111</a>
             </div>
           </li>
         </ul>
@@ -153,8 +162,12 @@
                   width="270"
                   height="260"
                 />
-
-                <span>John Doe</span> <span>Product Designer</span>
+                <div class="employee-name">
+                  <span>John Doe</span>
+                </div>
+                <div class="employee-job">
+                  <span>Product Designer</span>
+                </div>
               </div>
             </li>
             <li>
@@ -165,8 +178,12 @@
                   width="270"
                   height="260"
                 />
-
-                <span>John Doe</span> <span>Frontend Developer</span>
+                <div class="employee-name">
+                  <span>John Doe</span>
+                </div>
+                <div class="employee-job">
+                  <span>Frontend Developer</span>
+                </div>
               </div>
             </li>
             <li>
@@ -177,8 +194,12 @@
                   width="270"
                   height="260"
                 />
-
-                <span>John Doe</span> <span>Marketing</span>
+                <div class="employee-name">
+                  <span>John Doe</span>
+                </div>
+                <div class="employee-job">
+                  <span>Marketing</span>
+                </div>
               </div>
             </li>
             <li>
@@ -189,8 +210,8 @@
                   width="270"
                   height="260"
                 />
-
-                <span>John Doe</span> <span>UI Designer</span>
+                <div class="employee-name"><span>John Doe</span></div>
+                <div class="employee-job"><span>UI Designer</span></div>
               </div>
             </li>
           </ul>

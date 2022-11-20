@@ -8,49 +8,58 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <style>
+      body {
+        background: #ffffff;
+        font-family: "Roboto";
+        color: #212121;
+      }
+    </style>
   </head>
 
   <body>
     <header class="header-portfolio">
-      <div class="header-inline">
+      <div>
+        <div class="header-inline">
+          <a class="web-studio-header" href="#"
+            >Web<span class="studio-logo-header">Studio</span></a
+          >
+        </div>
         <nav>
-          <div>
-            <a class="web-studio-header" href="#"
-              >Web<span class="studio-logo-header">Studio</span></a
-            >
-          </div>
           <div class="menu-nav">
-            <ul class="portfolio-list">
+            <ul class="portfolio-nav">
               <li>
-                <div class="nav-agency"><a href="studio.html">Agencja</a></div>
-              </li>
-              <li>
-                <div class="nav-portfolio">
-                  <a class="blue-link" href="portfolio.html">Portfolio</a>
+                <div class="nav-agency-position">
+                  <a href="studio.html">Agencja</a>
                 </div>
               </li>
               <li>
-                <div class="nav-contact"><a href="#kontakt">Kontakt</a></div>
+                <div class="nav-portfolio-position">
+                  <a href="portfolio.html">Portfolio</a>
+                </div>
+              </li>
+              <li>
+                <div class="nav-contact-position">
+                  <a href="#kontakt">Kontakt</a>
+                </div>
               </li>
             </ul>
           </div>
         </nav>
 
-        <ul class="portfolio-list">
+        <ul class="portfolio-contacts">
           <li>
-            <div class="nav-mail">
-              <a class="contacts-color" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
+            <div class="nav-mail-position">
+              <a href="mailto:info@devstudio.com">info@devstudio.com</a>
             </div>
           </li>
           <li>
-            <div class="nav-tel">
-              <a class="contacts-color" href="+48111111111">+48 111 111 111</a>
+            <div class="nav-tel-position">
+              <a href="+48111111111">+48 111 111 111</a>
             </div>
           </li>
         </ul>
