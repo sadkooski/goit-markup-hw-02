@@ -7,55 +7,9 @@
   --active-color: #2196f3;
 }
 
-h1 {
-  position: absolute;
-  width: 696px;
-  height: 120px;
-  left: 452px;
-  top: 164px;
-
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 136%;
-
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-
-  color: var(--background-white);
-}
-
-a {
-  text-decoration: none;
-}
-
 /* STUDIO STARTS*/
 
-.body-studio {
-  height: 2349px;
-  width: 1600px;
-  left: 0px;
-  top: 0px;
-}
-
-.header-studio {
-  width: 1600px;
-  height: 80px;
-  left: 0px;
-  top: 0px;
-}
-
-.footer-studio {
-  position: absolute;
-  width: 1600px;
-  height: 252px;
-  left: 0px;
-  top: 2097px;
-
-  background: var(--background-dark-grey);
-}
-
-.section-one-studio {
+.sections section:first-child {
   position: absolute;
   width: 1600px;
   height: 600px;
@@ -64,34 +18,7 @@ a {
 
   background: var(--background-dark-grey);
 }
-
-.section-two-studio {
-  position: absolute;
-  width: 1170px;
-  height: 101px;
-  left: 215px;
-  top: 774px;
-}
-
-.section-three-studio {
-  position: absolute;
-  width: 1170px;
-  height: 386px;
-  left: 215px;
-  top: 969px;
-}
-
-.section-four-studio {
-  position: absolute;
-  width: 1600px;
-  height: 648px;
-  left: 0px;
-  top: 1449px;
-
-  background: var(--background-grey);
-}
-
-.button-studio {
+.sections section:first-child button {
   position: absolute;
   width: 200px;
   height: 50px;
@@ -115,8 +42,16 @@ a {
   border: none;
   cursor: pointer;
 }
+.sections section:first-child button:hover {
+  background: var(--active-color);
+  /* shadow-middle */
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 
-.button-studio:hover {
+  color: var(--background-white);
+}
+.sections section:first-child button:focus {
   background: var(--active-color);
   /* shadow-middle */
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
@@ -126,15 +61,35 @@ a {
   color: var(--background-white);
 }
 
-.button-studio:focus {
-  background: var(--active-color);
-  /* shadow-middle */
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
 
-  color: var(--background-white);
+.sections section:nth-child(2) {
+  position: absolute;
+  width: 1170px;
+  height: 101px;
+  left: 215px;
+  top: 774px;
 }
+
+.sections section:nth-child(3) {
+  position: absolute;
+  width: 1170px;
+  height: 386px;
+}
+
+.sections section:last-child {
+  position: absolute;
+  width: 1600px;
+  height: 648px;
+  left: 0px;
+  top: 1449px;
+
+  background: var(--background-grey);
+}
+
+
+
+
+
 
 .studio-text-title {
   font-weight: 700;
@@ -327,31 +282,6 @@ a {
 
 /* PORTFOLIO STARTS */
 
-.body-portfolio {
-  position: absolute;
-  width: 1600px;
-  height: 1880px;
-}
-
-.header-portfolio {
-  position: absolute;
-  width: 1600px;
-  height: 80px;
-  left: 0px;
-  top: 0px;
-  border-bottom: 1px solid #ececec;
-}
-
-.footer-portfolio {
-  position: absolute;
-  width: 1600px;
-  height: 252px;
-  left: 0px;
-  top: 1628px;
-
-  background: var(--background-dark-grey);
-}
-
 .header-position {
   width: 1600px;
   height: 80px;
@@ -403,23 +333,50 @@ a {
   color: var(--active-color);
 }
 
-.button-one {
+.filter-list button {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+
+  font-size: 16px;
+  line-height: 162%;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--title-color);
+}
+
+.filter-list li {
+  list-style: none;
+}
+
+.filter-list li:first-child button {
   position: absolute;
   width: 121px;
   height: 38px;
+
   left: 510px;
   top: 174px;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 26px;
 
+  font-weight: 700;
   background: var(--background-grey);
   border-radius: 4px;
   border: none;
   cursor: pointer;
 }
+.filter-list li:first-child button:hover {
+  background: var(--active-color);
+  /* shadow-middle */
 
-.button-one:hover {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+
+  color: var(--background-white);
+}
+.filter-list li:first-child button:focus {
   background: var(--active-color);
   /* shadow-middle */
 
@@ -430,31 +387,30 @@ a {
   color: var(--background-white);
 }
 
-.button-one:focus {
-  background: var(--active-color);
-  /* shadow-middle */
-
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
-
-  color: var(--background-white);
-}
-
-.button-two {
+.filter-list li:nth-child(2) button {
   position: absolute;
   width: 93px;
   height: 38px;
   left: 639px;
   top: 174px;
   font-weight: 700;
+
   background: var(--background-grey);
   border-radius: 4px;
   border: none;
   cursor: pointer;
 }
+.filter-list li:nth-child(2) button:hover {
+  background: var(--active-color);
+  /* shadow-middle */
 
-.button-two:hover {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+
+  color: var(--background-white);
+}
+.filter-list li:nth-child(2) button:focus {
   background: var(--active-color);
   /* shadow-middle */
 
@@ -465,18 +421,7 @@ a {
   color: var(--background-white);
 }
 
-.button-two:focus {
-  background: var(--active-color);
-  /* shadow-middle */
-
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
-
-  color: var(--background-white);
-}
-
-.button-three {
+.filter-list li:nth-child(3) button {
   position: absolute;
   width: 114px;
   height: 38px;
@@ -489,8 +434,17 @@ a {
   border: none;
   cursor: pointer;
 }
+.filter-list li:nth-child(3) button:hover {
+  background: var(--active-color);
+  /* shadow-middle */
 
-.button-three:hover {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+
+  color: var(--background-white);
+}
+.filter-list li:nth-child(3) button:focus {
   background: var(--active-color);
   /* shadow-middle */
 
@@ -501,18 +455,7 @@ a {
   color: var(--background-white);
 }
 
-.button-three:focus {
-  background: var(--active-color);
-  /* shadow-middle */
-
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
-
-  color: var(--background-white);
-}
-
-.button-four {
+.filter-list li:nth-child(4) button {
   position: absolute;
   width: 91px;
   height: 38px;
@@ -525,8 +468,17 @@ a {
   border: none;
   cursor: pointer;
 }
+.filter-list li:nth-child(4) button:hover {
+  background: var(--active-color);
+  /* shadow-middle */
 
-.button-four:hover {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+
+  color: var(--background-white);
+}
+.filter-list li:nth-child(4) button:focus {
   background: var(--active-color);
   /* shadow-middle */
 
@@ -537,18 +489,7 @@ a {
   color: var(--background-white);
 }
 
-.button-four:focus {
-  background: var(--active-color);
-  /* shadow-middle */
-
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
-
-  color: var(--background-white);
-}
-
-.button-five {
+.filter-list li:nth-child(5) button {
   position: absolute;
   width: 121px;
   height: 38px;
@@ -561,8 +502,7 @@ a {
   border: none;
   cursor: pointer;
 }
-
-.button-five:hover {
+.filter-list li:nth-child(5) button:hover {
   background: #2196f3;
   /* shadow-middle */
 
@@ -572,8 +512,7 @@ a {
 
   color: var(--background-white);
 }
-
-.button-five:focus {
+.filter-list li:nth-child(5) button:focus {
   background: var(--active-color);
   /* shadow-middle */
 
@@ -582,14 +521,6 @@ a {
   border-radius: 4px;
 
   color: var(--background-white);
-}
-
-.filters {
-  width: 572px;
-  height: 54px;
-  margin-top: 174px;
-  margin-left: 510px;
-  margin-right: 518px;
 }
 
 .project-one {
@@ -911,23 +842,4 @@ header div ul li div a:focus {
   position: absolute;
   margin-top: 32px;
   margin-left: 1263px;
-}
-
-.filter-list > li > button {
-  list-style: none;
-  padding: 0px;
-  margin: 0px;
-
-  font-size: 16px;
-  line-height: 162%;
-  /* identical to box height, or 162% */
-
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  color: var(--title-color);
-}
-
-.filter-list > li {
-  list-style: none;
 }

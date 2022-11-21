@@ -17,11 +17,52 @@
         background: #ffffff;
         font-family: "Roboto";
         color: #212121;
+        height: 2349px;
+        width: 1600px;
+      }
+
+      header {
+        position: absolute;
+        width: 1600px;
+        height: 80px;
+        left: 0px;
+        top: 0px;
+        border-bottom: 1px solid #ececec;
+      }
+      footer {
+        position: absolute;
+        width: 1600px;
+        height: 252px;
+        left: 0px;
+        top: 2097px;
+        background: var(--background-dark-grey);
+      }
+
+      h1 {
+        position: absolute;
+        width: 696px;
+        height: 120px;
+        left: 452px;
+        top: 164px;
+
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 136%;
+
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+
+        color: var(--background-white);
+      }
+
+      a {
+        text-decoration: none;
       }
     </style>
   </head>
 
-  <body class="body-studio">
+  <body>
     <header class="header-studio">
       <div>
         <div class="header-inline">
@@ -66,13 +107,13 @@
       </div>
     </header>
 
-    <main>
-      <section class="section-one-studio">
+    <main class="sections">
+      <section>
         <h1 id="agencja">EFEKTWYNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-        <button class="button-studio" type="button">Zamów usługę</button>
+        <button type="button">Zamów usługę</button>
       </section>
 
-      <section class="section-two-studio">
+      <section>
         <ul class="studio-lists">
           <li>
             <div class="studio-text-one">
@@ -113,7 +154,7 @@
         </ul>
       </section>
 
-      <section class="section-thrree-studio">
+      <section>
         <div class="what-weare-doing">
           <h2 class="what-weare-doing-text" id="portfolio">
             Czym się zajmujemy
@@ -150,7 +191,7 @@
         </ul>
       </section>
 
-      <section class="section-four-studio">
+      <section>
         <h2 class="our-team-text">Nasz zespół</h2>
         <div class="our-team">
           <ul class="studio-lists">
@@ -219,7 +260,7 @@
       </section>
     </main>
 
-    <footer class="footer-studio">
+    <footer>
       <a class="web-studio-footer" href="#" id="kontakt"
         >Web<span class="studio-logo-footer">Studio</span></a
       >

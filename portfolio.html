@@ -17,73 +17,93 @@
         background: #ffffff;
         font-family: "Roboto";
         color: #212121;
+        width: 1600px;
+        height: 1880px;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      header {
+        position: absolute;
+        width: 1600px;
+        height: 80px;
+        left: 0px;
+        top: 0px;
+        border-bottom: 1px solid #ececec;
+      }
+
+      footer {
+        position: absolute;
+        width: 1600px;
+        height: 252px;
+        left: 0px;
+        top: 1628px;
+        background: var(--background-dark-grey);
       }
     </style>
   </head>
 
   <body>
-    <header class="header-portfolio">
-      <div>
-        <div class="header-inline">
-          <a class="web-studio-header" href="#"
-            >Web<span class="studio-logo-header">Studio</span></a
-          >
-        </div>
-        <nav>
-          <div class="menu-nav">
-            <ul class="portfolio-nav">
-              <li>
-                <div class="nav-agency-position">
-                  <a href="index.html">Agencja</a>
-                </div>
-              </li>
-              <li>
-                <div class="nav-portfolio-position">
-                  <a href="portfolio.html">Portfolio</a>
-                </div>
-              </li>
-              <li>
-                <div class="nav-contact-position">
-                  <a href="#kontakt">Kontakt</a>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </nav>
-
-        <ul class="portfolio-contacts">
-          <li>
-            <div class="nav-mail-position">
-              <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-            </div>
-          </li>
-          <li>
-            <div class="nav-tel-position">
-              <a href="+48111111111">+48 111 111 111</a>
-            </div>
-          </li>
-        </ul>
+    <header>
+      <div class="header-inline">
+        <a class="web-studio-header" href="#"
+          >Web<span class="studio-logo-header">Studio</span></a
+        >
       </div>
+      <nav>
+        <div class="menu-nav">
+          <ul class="portfolio-nav">
+            <li>
+              <div class="nav-agency-position">
+                <a href="index.html">Agencja</a>
+              </div>
+            </li>
+            <li>
+              <div class="nav-portfolio-position">
+                <a href="portfolio.html">Portfolio</a>
+              </div>
+            </li>
+            <li>
+              <div class="nav-contact-position">
+                <a href="#kontakt">Kontakt</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <ul class="portfolio-contacts">
+        <li>
+          <div class="nav-mail-position">
+            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </div>
+        </li>
+        <li>
+          <div class="nav-tel-position">
+            <a href="+48111111111">+48 111 111 111</a>
+          </div>
+        </li>
+      </ul>
     </header>
 
     <main>
       <section>
         <div>
-          <div class="filters">
-            <ul class="filter-list">
-              <li>
-                <button class="button-one" type="button">Wszystkie</button>
-              </li>
-              <li><button class="button-two" type="button">Strony</button></li>
-              <li>
-                <button class="button-three" type="button">Aplikacje</button>
-              </li>
-              <li><button class="button-four" type="button">Dizajn</button></li>
-              <li>
-                <button class="button-five" type="button">Marketing</button>
-              </li>
-            </ul>
-          </div>
+          <ul class="filter-list">
+            <li>
+              <button type="button">Wszystkie</button>
+            </li>
+            <li><button type="button">Strony</button></li>
+            <li>
+              <button type="button">Aplikacje</button>
+            </li>
+            <li><button type="button">Dizajn</button></li>
+            <li>
+              <button type="button">Marketing</button>
+            </li>
+          </ul>
 
           <ul class="portfolio-list">
             <li>
@@ -252,7 +272,7 @@
       </section>
     </main>
 
-    <footer class="footer-portfolio">
+    <footer>
       <a class="web-studio-footer" href="#" id="kontakt"
         >Web<span class="studio-logo-footer">Studio</span></a
       >
