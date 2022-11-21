@@ -61,7 +61,7 @@
   top: 774px;
 }
 .sections section:nth-child(3) {
-  position: absolute;
+  position: inherit;
   width: 1170px;
   height: 386px;
   margin-top: 969px;
