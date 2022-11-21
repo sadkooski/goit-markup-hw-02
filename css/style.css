@@ -7,28 +7,21 @@
   --active-color: #2196f3;
 }
 
-/* STUDIO STARTS*/
-
-
 .sections section:first-child button {
   position: absolute;
   width: 200px;
   height: 50px;
   left: 700px;
   top: 350px;
-
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;
-
   font-weight: 700;
   font-size: 16px;
   line-height: 188%;
-
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-
   background: var(--background-grey);
   border-radius: 4px;
   border: none;
@@ -90,13 +83,10 @@
   height: 31px;
   margin-left: 215px;
   margin-top: 24px;
-
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
   line-height: 119%;
-  /* identical to box height */
-
   letter-spacing: 0.03em;
   text-decoration: none;
   color: var(--active-color);
@@ -557,7 +547,7 @@
   height: 38px;
   left: 510px;
   top: 174px;
-  font-weight: 700;
+  font-weight: 500;
   background: var(--background-grey);
   border-radius: 4px;
   border: none;
