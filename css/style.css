@@ -7,6 +7,12 @@
   --active-color: #2196f3;
 }
 
+body {
+  background: #ffffff;
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+}
+
 /* HEADER and FOOTER*/
 
 .footer {
@@ -20,24 +26,27 @@
   font-size: 26px;
   line-height: 119%;
   letter-spacing: 0.03em;
-  color: var(--active-color)
+  color: var(--active-color);
 }
 
 .logo-white {
-color: var(--background-white);
+  color: var(--background-white);
 }
 
 .logo-black {
-color: var(--title-color);
+  color: var(--title-color);
 }
 
-.navigation {
-  list-style-type: none;
+.navigation > li > a {
   font-weight: 500;
   font-size: 14px;
   line-height: 114%;
   letter-spacing: 0.02em;
   color: var(--title-color);
+}
+
+.navigation {
+  list-style-type: none;
 }
 
 .contacts-header a:hover,
@@ -62,8 +71,8 @@ color: var(--title-color);
 .contacts-footer a,
 .contacts-header a,
 .navigation a {
-text-decoration: none;
-color: var(--text-color);
+  text-decoration: none;
+  color: var(--text-color);
 }
 
 .contacts-footer {
@@ -76,32 +85,36 @@ color: var(--text-color);
   color: var(--text-color);
 }
 
+.contacts-footer span {
+  color: var(--background-white);
+}
+
 /* MAIN PORTFOLIO */
 
 .buttons {
   list-style-type: none;
 }
 
-.buttons li button {
+.buttons button {
   cursor: pointer;
   font-weight: 500;
   font-size: 16px;
-  line-height: 162%; 
+  line-height: 162%;
   letter-spacing: 0.03em;
   color: var(--title-color);
   border-radius: 4px;
   border: none;
 }
 
-.buttons li button:hover,
-.buttons li button:focus {
+.buttons button:hover,
+.buttons button:focus {
   color: var(--background-white);
   background: var(--active-color);
 }
 
 .projects {
- list-style-type: none;
- background: var(--background-white);
+  list-style-type: none;
+  background: var(--background-white);
 }
 
 .projects-names {
@@ -109,7 +122,7 @@ color: var(--text-color);
   font-size: 18px;
   line-height: 200%;
   letter-spacing: 0.06em;
-  color: var(--title-color)
+  color: var(--title-color);
 }
 
 .projects-categories {
@@ -117,13 +130,13 @@ color: var(--text-color);
   font-size: 16px;
   line-height: 188%;
   letter-spacing: 0.03em;
-  color: var(--text-color)
+  color: var(--text-color);
 }
 
 /* MAIN INDEX */
 
 .main-section {
-background: var(--background-dark-grey);
+  background: var(--background-dark-grey);
 }
 
 .main-section h1 {
@@ -132,26 +145,20 @@ background: var(--background-dark-grey);
   line-height: 136%;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--background-white)
+  color: var(--background-white);
 }
 
 .main-section button {
-font-weight: 700;
-font-size: 16px;
-line-height: 188%;
-letter-spacing: 0.06em;
-cursor: pointer;
-color: var(--title-color);
-background: var(--background-grey);
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
-border: none;
-}
-
-.main-section button:hover,
-.main-section button:focus {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 188%;
+  letter-spacing: 0.06em;
+  cursor: pointer;
   color: var(--background-white);
   background: var(--active-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
 }
 
 .paragraphs {
@@ -159,20 +166,20 @@ border: none;
 }
 
 .paragraphs h4 {
-font-weight: 700;
-font-size: 14px;
-line-height: 114%;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: var(--title-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 114%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-color);
 }
 
 .paragraphs p {
-font-weight: 400;
-font-size: 14px;
-line-height: 171%;
-letter-spacing: 0.03em;
-color: var(--text-color)
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
 }
 
 .titles {
@@ -192,8 +199,8 @@ color: var(--text-color)
   color: var(--title-color);
 }
 
-.employees{
-background: var(--background-grey);
+.employees {
+  background: var(--background-grey);
 }
 
 .employees ul {
@@ -206,7 +213,7 @@ background: var(--background-grey);
   line-height: 118%;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--title-color);  
+  color: var(--title-color);
 }
 
 .employees-jobs {
@@ -217,4 +224,3 @@ background: var(--background-grey);
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
-
