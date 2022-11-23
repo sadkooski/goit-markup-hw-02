@@ -136,6 +136,10 @@ background: var(--background-dark-grey);
 }
 
 .main-section button {
+font-weight: 700;
+font-size: 16px;
+line-height: 188%;
+letter-spacing: 0.06em;
 cursor: pointer;
 color: var(--title-color);
 background: var(--background-grey);
