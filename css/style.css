@@ -47,6 +47,7 @@ body {
 
 .navigation {
   list-style-type: none;
+  padding: 0px;
 }
 
 .contacts-header a:hover,
@@ -66,6 +67,7 @@ body {
   line-height: 114%;
   letter-spacing: 0.02em;
   color: var(--text-color);
+  padding: 0px;
 }
 
 .contacts-footer a,
@@ -76,13 +78,20 @@ body {
 }
 
 .contacts-footer {
-  text-decoration: none;
-  list-style-type: none;
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 171%;
   letter-spacing: 0.03em;
   color: var(--text-color);
+}
+
+.contacts-footer ul {
+  padding: 0px;
+}
+
+.contacts-footer li {
+  list-style-type: none;
 }
 
 .contacts-footer span {
